@@ -63,7 +63,7 @@ LES HICE VIDEO EXPLICITO DE LA CALIBRACION
 
 jstest-gtk
 
-2. NODO JOY
+# 2. NODO JOY
 cd ~/mi_ws
 source install/setup.bash
 
@@ -78,7 +78,7 @@ cd ~/mi_ws
 source install/setup.bash
 ros2 topic echo /joy
 
-/// MANUAL DE TERMINALES ///
+# /// MANUAL DE TERMINALES ///
 
 1.Cómo lanzar todo paso a paso 
 Terminal 1 – Barco + RViz (tu launch de antes)
@@ -90,7 +90,7 @@ Terminal 2 – Nodo del joystick
 cd ~/mi_ws
 source install/setup.bash
 ros2 run joy joy_node
-# (si te pide el dispositivo: ros2 run joy joy_node --ros-args -p dev:="/dev/input/js0")
+(si te pide el dispositivo: ros2 run joy joy_node --ros-args -p dev:="/dev/input/js0")
 
 Terminal 3 – Teleop del barco con PS4
 cd ~/mi_ws
